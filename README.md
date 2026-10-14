@@ -1,4 +1,4 @@
-# edunova-part1
+# edunova-part3
 student name: libisi chantell
 
 ## project overview:
