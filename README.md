@@ -165,6 +165,9 @@ Tested across 3 screen sizes with screenshots captured:
 - Browsers tested: Google Chrome, Microsoft Edge, Mozilla Firefox — consistent display and functionality
 ### Screenshots
 ![desktop view](Desktop.png)
+![tablet view](tablet.png)
+![mobile view](mobile.png)
+
 
 ---
 
