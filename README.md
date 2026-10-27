@@ -164,7 +164,7 @@ Tested across 3 screen sizes with screenshots captured:
 - **Mobile (375×667):** Single column, navigation stacked, full-width elements
 - Browsers tested: Google Chrome, Microsoft Edge, Mozilla Firefox — consistent display and functionality
 ### Screenshots
-![desktop view](desktop.png)
+![desktop view](Desktop.png)
 
 ---
 
