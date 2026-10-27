@@ -163,6 +163,8 @@ Tested across 3 screen sizes with screenshots captured:
 - **Tablet (768×1024):** Navigation wraps, content adjusts, images scale
 - **Mobile (375×667):** Single column, navigation stacked, full-width elements
 - Browsers tested: Google Chrome, Microsoft Edge, Mozilla Firefox — consistent display and functionality
+### Screenshots
+![desktop view](desktop.png)
 
 ---
 
