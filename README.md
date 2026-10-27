@@ -236,3 +236,67 @@ Part 3 builds on the completed website by adding:
 
 ##  Part 2 Feedback Applied
 All corrections from Part 2 feedback have been implemented and documented in the Changelog above.
+
+---
+
+## Part 3 — Completed Features
+
+### 1. JavaScript Functionality
+- **Dual Form Implementation**
+  - `enquiry.html` — Enquiry form with dropdown: Tutoring Services / Volunteering / Sponsorship
+  - `contact.html` — Contact form with: Full Name, Email, Phone, Subject, Message
+  - Distinct success messages for each enquiry type
+- **Client-Side Validation**
+  - HTML5 validation: `required`, `type="email"`, `minlength`
+  - Custom JavaScript validation — checks inputs before submission
+  - Clear error messages and success messages displayed to user
+  - Form resets automatically on successful submission
+- **Interactive Elements**
+  - **FAQ Accordion** on Resources page — click to expand/collapse answers
+  - **Leaflet Interactive Map** on Contact page — Cape Town location marker with popup
+  - Smooth transitions and hover effects across all interactive components
+
+### 2. Search Engine Optimisation (SEO)
+- **On-Page SEO**
+  - Unique `<title>` and `<meta description>` on all 7 pages
+  - Keyword-rich meta tags for relevant search visibility
+  - Proper heading hierarchy (H1 → H2 → H3) across all content
+  - Descriptive `alt` text for all images
+  - Clean, semantic file names and mobile-friendly layout
+- **SEO Files Created**
+  - `sitemap.xml` — Lists all pages for search engine crawlers
+  - `robots.txt` — Guides search engine indexing
+- **Performance & Accessibility**
+  - Optimised responsive images
+  - `:focus-visible` and `:active` states for keyboard navigation
+  - Fast-loading, mobile-first design
+
+### 3. Deployment & Publishing
+- Website deployed live via **GitHub Pages**
+- All pages, styles, scripts and assets loading correctly
+- Cross-browser tested: Chrome, Firefox, Edge
+
+---
+
+## 📋 Updated Changelog — Part 3 Entries
+
+| Date | Version | Changes |
+|---|---|---|
+| 27 Oct 2026 | v3.0 — Part 3 Started | Created `enquiry.html` — separate form for Services / Volunteering / Sponsorship enquiries |
+| 27 Oct 2026 | v3.1 — Part 3 | Updated `contact.html` — distinct form with Full Name, Email, Phone, Subject & Message fields |
+| 27 Oct 2026 | v3.2 — Part 3 | Added `scripts.js` — form validation for both pages + custom success/error messages |
+| 27 Oct 2026 | v3.3 — Part 3 | Integrated Leaflet.js — interactive map with Cape Town marker on Contact page |
+| 27 Oct 2026 | v3.4 — Part 3 | Added FAQ Accordion to Resources page — click to expand/collapse |
+| 27 Oct 2026 | v3.5 — Part 3 | SEO: Added unique meta titles & descriptions to all 7 HTML pages |
+| 27 Oct 2026 | v3.6 — Part 3 | Created `sitemap.xml` & `robots.txt` in root folder for search engines |
+| 27 Oct 2026 | v3.7 — Part 3 | Final cross-browser testing, link verification & README updated |
+| 27 Oct 2026 | v3.8 — Part 3 | Deployed website to GitHub Pages — live link added below |
+
+---
+
+## Final Submission
+This project is now complete with all requirements met across:
+-  Part 1 — Planning, wireframes, structure
+-  Part 2 — Responsive design, CSS, accessibility
+-  Part 3 — JavaScript, SEO, interactivity, deployment
+
