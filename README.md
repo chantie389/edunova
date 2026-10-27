@@ -179,7 +179,14 @@ Tested across 3 screen sizes with screenshots captured:
 | 16 September 2026 | v1.2 — Part 2 | Created external `style.css`, applied base styles, typography, colour palette, and Flexbox layout. |
 | 16 September 2026 | v1.3 — Part 2 | Added media queries for tablet and mobile responsiveness; converted font sizes to `rem`. |
 | 16 September 2026 | v1.4 — Part 2 | Added interactive hover/focus states, visual styling, downloadable document links to Resources page. |
-| 16 September 2026 | v1.5 — Part 2 | Finalised README with testing notes, updated file structure, and complete reference list. |
+| 16 September 2026 | v1.5 — Part 2 | Finalised README with testing notes, updated file structure, and complete reference list.|
+| 27 October 2026 | v1.6 — Part 2 Resubmission | Added Google Fonts links to all 6 HTML files (Poppins + Open Sans) |
+| 27 October 2026 | v1.7 — Part 2 Resubmission | Reorganised CSS colours using :root custom properties/variables |
+| 27 October 2026 | v1.8 — Part 2 Resubmission | Added missing responsive breakpoint at 480px — 3 total now (1024px / 768px / 480px) |
+| 27 October 2026 | v1.9 — Part 2 Resubmission | Implemented CSS Grid layout for Subjects page — properly stacks on all screen sizes |
+| 27 October 2026 | v2.0 — Part 2 Resubmission | Fixed home-image class naming inconsistency & image overflow on mobile |
+| 27 October 2026 | v2.1 — Part 2 Resubmission | Added :focus-visible and :active states for keyboard accessibility |
+| 27 October 2026 | v2.2 — Part 2 Resubmission | Added 3 responsive screenshots (Desktop / Tablet / Mobile) to README |
 
 ---
 
