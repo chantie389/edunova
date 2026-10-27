@@ -214,3 +214,25 @@ Tested across 3 screen sizes with screenshots captured:
 - MDN Web Docs (2025) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS [Accessed 31 July 2026].
 - MDN Web Docs (2025) HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 31 July 2026].
 - MDN Web Docs (2025) JavaScript Guide. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide [Accessed 31 July 2026].
+
+### Additional References (Part 3)
+- Leaflet (2026) Leaflet — an open-source JavaScript library for interactive maps. Available at: https://leafletjs.com/ [Accessed 24 Oct 2026].
+- Netlify (2026) Netlify Documentation. Available at: https://docs.netlify.com/ [Accessed 24 Oct 2026].
+- GitHub Pages (2026) GitHub Pages Documentation. Available at: https://pages.github.com/ [Accessed 24 Oct 2026].
+
+---
+
+# Part 3 — Enhanced Functionality & SEO
+**Student:** Libisi Chantell
+**Student Number:** ST10534598
+**Submission:** Part 3 — JavaScript, SEO & Deployment
+
+##  Part 3 Overview
+Part 3 builds on the completed website by adding:
+- JavaScript form validation & interactive elements
+- Search Engine Optimisation (SEO) improvements
+- Dynamic content features
+- Website deployment & live publishing
+
+##  Part 2 Feedback Applied
+All corrections from Part 2 feedback have been implemented and documented in the Changelog above.
