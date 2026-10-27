@@ -138,7 +138,8 @@ The following was completed:
 ---
 
 ##  File Structure
-![file structure](fileStructure.jpeg) 
+![file structure](fileStructure.jpeg)
+![file structure](finalStructure.png)
 
 ---
 
