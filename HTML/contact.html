@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- SEO: Custom Title & Description -->
     <title>Contact | EduNova Tutoring Centre</title>
+    <meta name="description" content="Contact EduNova Tutoring Centre in Cape Town. Send us a message, find our email, phone number and location.">
+    <meta name="keywords" content="contact, Cape Town, tutoring, email, phone">
+    <meta name="author" content="Libisi Chantell">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet Map CSS (we'll add the map next!) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
-
 <body>
-
-    <!-- Header and navigation -->
+    <!-- Header & Navigation -->
     <header>
         <nav>
             <a href="index.html">Home</a>
@@ -20,87 +28,107 @@
             <a href="subjects.html">Subjects</a>
             <a href="resources.html">Resources</a>
             <a href="testimonials.html">Testimonials</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="enquiry.html">Enquiry</a>
         </nav>
     </header>
 
-<!-- Contact information and enquiry form -->
-<main>
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <p>Get in touch with EduNova Tutoring Centre. We'd love to hear from you!</p>
+            <img src="../MEDIA/images/contact.jpeg" alt="Get in touch with EduNova Tutoring Centre" class="home-image">
+        </section>
 
-    <section>
-        <h1>Contact Us</h1>
+        <section>
+            <h2>Contact Information</h2>
+            <p><img src="../MEDIA/icons/users.jpeg" alt="" class="icon-img"> Name: EduNova Tutoring Centre</p>
+            <p><img src="../MEDIA/icons/laptop.jpeg" alt="" class="icon-img"> Email: info@edunova.co.za</p>
+            <p><img src="../MEDIA/icons/call.jpeg" alt="" class="icon-img"> Phone: +27 21 123 4567</p>
+            <p><img src="../MEDIA/icons/location.jpeg" alt="" class="icon-img"> Location: Cape Town, South Africa</p>
+            <p><img src="../MEDIA/icons/calender.jpeg" alt="" class="icon-img"> Business Hours: Monday – Friday, 08:00 – 17:00</p>
+        </section>
 
-        <p>
-            Get in touch with EduNova Tutoring Centre for
-            information about our tutoring services.
-        </p>
-        <img src="../MEDIA/images/contact.jpeg" alt="Get in touch with us" class="home-image">
-    </section>
+        <!-- MAP SECTION — Will work once we add the JS below! -->
+        <section>
+            <h2>Find Us</h2>
+            <div id="map"></div>
+        </section>
 
-    <section>
-        <h2>Contact Information</h2>
-        <p><img src="../MEDIA/icons/users.jpeg" alt="" class="icon-img"> Name: EduNova Tutoring Centre</p>
-    <p><img src="../MEDIA/icons/laptop.jpeg" alt="" class="icon-img"> Email: info@edunova.co.za</p>
-    <p><img src="../MEDIA/icons/call.jpeg" alt="" class="icon-img"> Phone: 012 345 6789</p>
-    <p><img src="../MEDIA/icons/location.jpeg" alt="" class="icon-img"> Location: Cape Town, South Africa</p>
-    <p><img src="../MEDIA/icons/calender.jpeg" alt="" class="icon-img"> Business Hours: Monday – Friday, 08:00 – 17:00</p>
-    </section>
+        <!-- UPDATED FORM — Matches Part 3 Requirements -->
+        <section>
+            <h2>Send Us a Message</h2>
 
-    <section>
-        <h2>Send Us an Enquiry</h2>
+            <form id="contactForm" action="#" method="POST">
+                <label for="con_name">Your Full Name:</label>
+                <input type="text" id="con_name" name="con_name" required minlength="2">
 
-        <form action="#" method="post" onsubmit="alert('Thank you! your enquiry has been submitted successfully.');">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
+                <label for="con_email">Email Address:</label>
+                <input type="email" id="con_email" name="con_email" required>
 
-            <label for="surname">Surname:</label>
-            <input type="text" id="surname" name="surname">
+                <label for="con_phone">Phone Number:</label>
+                <input type="tel" id="con_phone" name="con_phone" placeholder="+27 XX XXX XXXX">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+                <label for="con_subject">Subject:</label>
+                <input type="text" id="con_subject" name="con_subject" required>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
+                <label for="con_message">Your Message:</label>
+                <textarea id="con_message" name="con_message" required minlength="15" placeholder="Write your message here..."></textarea>
 
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-</main>
+                <button type="submit">Send Message</button>
+                <div id="contact_msg" class="form-message"></div>
+            </form>
+        </section>
+    </main>
 
     <!-- Website footer -->
     <footer>
-  <div class="container footer-content">
-    <div class="footer-about">
-      <h3>EduNova Tutoring Centre</h3>
-      <p>Empowering students across Cape Town with quality tutoring in Mathematics, Sciences, Accounting and more.</p>
-    </div>
+      <div class="container footer-content">
+        <div class="footer-about">
+          <h3>EduNova Tutoring Centre</h3>
+          <p>Empowering students across Cape Town with quality tutoring in Mathematics, Sciences, Accounting and more.</p>
+        </div>
 
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="subjects.html">Subjects</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="subjects.html">Subjects</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+          </ul>
+        </div>
 
-    <div class="footer-contact">
-      <h4>Contact Us</h4>
-      <p>  Cape Town, South Africa</p>
-      <p>  +27 21 123 4567</p>
-      <p>  info@edunova.co.za</p>
-    </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p> Cape Town, South Africa</p>
+          <p> +27 21 123 4567</p>
+          <p> info@edunova.co.za</p>
+        </div>
 
-    <div class="footer-bottom">
-      <p>&copy; 2026 EduNova Tutoring Centre. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
+        <div class="footer-bottom">
+          <p>&copy; 2026 EduNova Tutoring Centre. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
 
+    <!-- JavaScript Files -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="../JAVASCRIPTS/scripts.js"></script>
+
+    <!-- Map Initialization -->
+    <script>
+      const map = L.map('map').setView([-33.9249, 18.4241], 13);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+      L.marker([-33.9249, 18.4241])
+        .addTo(map)
+        .bindPopup('<strong>EduNova Tutoring Centre</strong><br>Cape Town, South Africa')
+        .openPopup();
+    </script>
 </body>
-
 </html>
