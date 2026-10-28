@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO: Custom Title & Description -->
+    <title>Make an Enquiry | EduNova Tutoring Centre</title>
+    <meta name="description" content="Enquire about tutoring services, volunteering opportunities or sponsorship with EduNova Tutoring Centre in Cape Town.">
+    <meta name="keywords" content="enquiry, tutoring services, volunteer, sponsor, Cape Town">
+    <meta name="author" content="Libisi Chantell">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="subjects.html">Subjects</a>
+            <a href="resources.html">Resources</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+            <a href="enquiry.html" class="active">Enquiry</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Make an Enquiry</h1>
+            <p>Whether you're interested in our tutoring services, would like to volunteer your time, or are exploring sponsorship opportunities, we'd love to hear from you. Please complete the form below.</p>
+
+            <form id="enquiryForm" action="#" method="POST">
+                <label for="enq_name">Your Full Name:</label>
+                <input type="text" id="enq_name" name="enq_name" required minlength="2">
+
+                <label for="enq_email">Email Address:</label>
+                <input type="email" id="enq_email" name="enq_email" required>
+
+                <label for="enq_type">Type of Enquiry:</label>
+                <select id="enq_type" name="enq_type" required>
+                    <option value="">-- Please select an option --</option>
+                    <option value="service">Tutoring Services — I want to enrol a student</option>
+                    <option value="volunteer">Volunteering — I'd like to offer my time</option>
+                    <option value="sponsor">Sponsorship — I'm interested in supporting the centre</option>
+                </select>
+
+                <label for="enq_message">Tell Us More:</label>
+                <textarea id="enq_message" name="enq_message" required minlength="10" placeholder="Briefly describe your needs or interest..."></textarea>
+
+                <button type="submit">Submit Enquiry</button>
+                <div id="enquiry_msg" class="form-message"></div>
+            </form>
+        </section>
+    </main>
+
+        <!-- Website footer -->
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-about">
+          <h3>EduNova Tutoring Centre</h3>
+          <p>Empowering students across Cape Town with quality tutoring in Mathematics, Sciences, Accounting and more.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="subjects.html">Subjects</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p> Cape Town, South Africa</p>
+          <p> +27 21 123 4567</p>
+          <p> info@edunova.co.za</p>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 EduNova Tutoring Centre. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Validation -->
+    <script src="../JAVASCRIPTS/scripts.js"></script>
+</body>
+</html>
